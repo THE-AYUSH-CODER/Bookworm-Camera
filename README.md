@@ -131,8 +131,8 @@ I can give you a ready script for recording if you want.
 
 | **Issue** | **Fix** |
 |-----------|---------|
-| ModuleNotFoundError: No module named 'picamera2' | Run `sudo apt install python3-picamera2 -y` |
-| libcamera: No cameras available | Check ribbon cable and rerun `rpicam-hello --list-cameras` |
+| ModuleNotFoundError: No module named 'picamera2' | Run ```sudo apt install python3-picamera2 -y``` |
+| libcamera: No cameras available | Check ribbon cable and rerun ```rpicam-hello --list-cameras``` |
 | Window doesn’t open | Make sure you’re running from the desktop (not over SSH without X forwarding) |
 
 
@@ -140,15 +140,14 @@ I can give you a ready script for recording if you want.
 
 ✅ Summary
 
-Step	Command
-
-Update system	sudo apt update && sudo apt upgrade -y
-Install OpenCV + camera libs	sudo apt install python3-opencv python3-picamera2 libcamera-apps -y
-Test camera	rpicam-hello --list-cameras
-Run OpenCV preview	python3 camera_preview.py
+| **Step**                      | **Command**                                                             |
+|------------------------------|--------------------------------------------------------------------------|
+| Update system                | ```sudo apt update && sudo apt upgrade -y```                                 |
+| Install OpenCV + camera libs | ```sudo apt install python3-opencv python3-picamera2 libcamera-apps -y```   |
+| Test camera                  | ```rpicam-hello --list-cameras```                                            |
+| Run OpenCV preview           | ```python3 camera_preview.py```                                              |
 
 
 
 ---
 
-Would you like me to give you the next script that takes photos or records video automatically from this camera preview?
