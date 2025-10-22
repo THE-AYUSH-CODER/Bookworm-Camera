@@ -129,12 +129,11 @@ I can give you a ready script for recording if you want.
 
 🧩 Troubleshooting
 
-Issue	Fix
-
-ModuleNotFoundError: No module named 'picamera2'	Run sudo apt install python3-picamera2 -y
-libcamera: No cameras available	Check ribbon cable and rerun rpicam-hello --list-cameras
-Window doesn’t open	Make sure you’re running from the desktop (not over SSH without X forwarding)
-
+| **Issue** | **Fix** |
+|-----------|---------|
+| ModuleNotFoundError: No module named 'picamera2' | Run `sudo apt install python3-picamera2 -y` |
+| libcamera: No cameras available | Check ribbon cable and rerun `rpicam-hello --list-cameras` |
+| Window doesn’t open | Make sure you’re running from the desktop (not over SSH without X forwarding) |
 
 
 ---
